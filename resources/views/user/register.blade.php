@@ -1,6 +1,5 @@
 @include('partials.header')
 
-<h1>CREATE YOUR OWN ACCOUNT!!! SAGUTIN MO LAHAT!!!</h1>
 <form action="/store" method="POST">
     @csrf
     
@@ -9,8 +8,10 @@
     @enderror
 
     <div
-         style="background-color:yellow"
+         style="background-color:#FFA384"
 	</div>
+
+  <h1>Register an account!</h1>
 
     <div class="mb-3">
       <label for="name" class="form-label">Name</label>
@@ -53,7 +54,7 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form><br>
 
-  <h3><a href={{"/login"}}>DI BA MAY ACCOUNT KA NA? CLICK MO TO DITO KA MAGSIGN IN.(P.S. DI TALAGA AKO GALIT PROMISE)</a></h3>
+  <h3><a href={{"/login"}}>Already have an account? Sign up here!</a></h3>
 
   <br>
   

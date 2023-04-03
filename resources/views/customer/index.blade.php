@@ -9,7 +9,7 @@
 
 </div>
 <div
-         style="background-color:#D28140"
+         style="background-color:white"
 	</div>
 <table class="table table-striped">
   <thead>
